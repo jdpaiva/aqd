@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Global Health Specialist 68M AQD Application Form</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/main.css">
+		
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+		<link rel="stylesheet" href="/resources/demos/style.css">
+		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<script>
+		  $( function() {
+			$( "#datepicker" ).datepicker();
+		  } );
+		</script>
+    </head>
+    <body>
+	
+	<h1>Global Health Specialist 68M AQD Application Form</h1>
+
+	<form action="action_page.php" method="post">
+		<fieldset>
+			<legend>Select one:</legend>
+				
+			<input type="radio" name="level" value="associate">I am applying for the AQD 68M only, I meet the minimum standards<br>
+			<input type="radio" name="level" value="professional">I am applying to become a professional member of the Global Health Specialist Program for assignment to Global Health billets as a Health Affairs Advisor (HAA) or Navy Medicine Liaison Officer (LNO)
+		</fieldset>
+
+		<fieldset>
+			<legend>Identification:</legend>
+
+				Last name:<br>
+				<input type="text" name="lastname"><br>
+
+				First name:<br>
+				<input type="text" name="firstname"><br>
+		
+				Middle initial:<br>
+				<input type="text" name="middleinit"><br>
+
+				Rank:<br>
+				<select name="rank">
+					<option value="LT">LT</option>
+					<option value="LCDR">LCDR</option>
+					<option value="CDR">CDR</option>
+					<option value="CAPT">CAPT</option>
+				</select><br>
+				
+				Designator:<br>
+				<select name="designator">
+					<option value="210X">210X</option>
+					<option value="220X">220X</option>
+					<option value="230X">230X</option>
+					<option value="290X">290X</option>
+				</select><br><br>
+				
+				Command/Duty Station:<br>
+				<input type="text" name="command"><br>
+				
+				Address:<br>
+				<input type="text" name="address"><br>
+				
+				City:<br>
+				<input type="text" name="city"><br>
+				
+				State:<br>
+				<input type="text" name="state"><br>
+				
+				Zip:<br>
+				<input type="text" name="zip"><br>
+				
+				Duty Phone (DSN):<br>
+				<input type="text" name="phone"><br><br>
+				
+				COMM:<br>
+				<input type="text" name="comm"><br><br>
+				
+				Fax:<br>
+				<input type="text" name="fax"><br><br>
+				
+				Home/Cell Phone (optional):<br>
+				<input type="text" name="homecell"><br><br>
+				
+				E-mail:<br>
+				<input type="text" name="email"><br>
+				
+				Alternate E-mail:<br>
+				<input type="text" name="altemail"><br>
+				
+				Supervisor's Rank/Name:<br>
+				<input type="text" name="supervisor"><br>
+
+				Supervisor's E-mail:<br>
+				<input type="text" name="supervisoremail"><br>
+				
+				Active/Reserve:<br>
+				<select name="active">
+					<option value="AC">AC</option>
+					<option value="RC">RC</option>
+				</select><br><br>
+				
+				Subspecialty code or NEC:<br>
+				<input type="text" name="subspec"><br>
+		</fieldset>
+		
+		<fieldset>
+			<legend>Deployed Operational Health Service Support Experience</legend>
+			<em>Please list any deployed operational health services experience in an overseas expeditionary setting in support of a contingency or peacetime security cooperation event starting with the most current. This requirement may be <strong>supplemented</strong> with civilian host country experiences as study abroad programs, missionary work, NGO/IO/PVO experience, or Peace Corps service. Please describe your experience in as much detail as possible in the REMARKS block. Additional rows can be added to the table, or a continuation sheet can be added for more experience details.</em><br><br>
+
+			Location:<br>
+			<input type="text" name="location1"><br>
+			
+			From:<br>
+			<input type="text" id="datefrom1"><br><br>
+			
+			To:<br>
+			<input type="text" id="dateto1"><br><br>
+			
+			<input type="checkbox" name="xp1" value="opdeploy">Operational Deployment<br>
+			<input type="checkbox" name="xp2" value="Humanitarian">Humanitarian<br>
+			<input type="checkbox" name="xp3" value="Missionary">Missionary<br>
+			<input type="checkbox" name="xp3" value="Other">Other:<br><br>
+			
+			
+			
+			Remarks:<br>
+			<textarea name="remarks1" rows="5" cols="30"></textarea>
+		
+		</fieldset>
+
+		<fieldset>
+			<legend>Experience and Competencies</legend>
+			
+				Experience:<br>
+				<em>Time (in months) spent serving in a CONUS or OCONUS capacity in support of global health activities or mission</em><br>
+				<input type="text" name="experience"><br><br>
+				
+				Competencies:<br>
+				<em>Competencies demonstrated through global health experience</em><br>
+				<input type="checkbox" name="comp1" value="strategy">Application of U.S. strategy<br>
+				<input type="checkbox" name="comp2" value="diplomacy">International diplomacy<br>
+				<input type="checkbox" name="comp3" value="cultural">Cultural awarness<br>
+				<input type="checkbox" name="comp4" value="hn">Host nation centered assistance<br>
+				<input type="checkbox" name="comp5" value="stratcomms">Strategic communications<br>
+				<input type="checkbox" name="comp6" value="admin">Administration<br>
+		</fieldset>
+
+		<fieldset>
+			<legend>Education and Supporting Documents</legend>
+			
+				Education:<br>
+				<em>Check all that apply</em><br>
+				<input type="checkbox" name="edu0" value="none">None<br>
+				<input type="checkbox" name="edu1" value="degree">Degree<br>
+				<input type="checkbox" name="edu2" value="course">Course<br>
+				<input type="checkbox" name="edu3" value="certificate">Certificate<br><br>
+
+				Supporting documents:<br>
+				<ul>
+					<li>CV</li>
+					<li>Certification(s) and/or syllabus/i</li>
+					<li>Letters of support from current/former XOs/COs or FITREPS that reflect professional experience and/or deployment activities that achieved GHE competencies</li>
+				</ul>
+				<input type="file" name="docs" multiple><br><br>
+				
+				Description of supporting documents:<br>
+				<textarea name="message" rows="10" cols="30"></textarea>
+		</fieldset>
+	<button type="submit">Submit</button>
+	</form>
+</body>
+</html>
